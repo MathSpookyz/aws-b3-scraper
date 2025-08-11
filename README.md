@@ -30,4 +30,15 @@ Este script Python realiza a raspagem da carteira teórica do índice **IBOV** d
   ```bash
   pip install pandas requests pyarrow boto3
 
+## ⚙️ Configuração
+
+  REGION = "us-east-2"         # Região AWS do bucket
+  BUCKET = "raw-dados-ibov"    # Nome do bucket S3
+  
+## 🚀 Execução
+
+  python coleta_ibov.py
+
+## Arquitetura
+
 <img width="1187" height="545" alt="image" src="https://github.com/user-attachments/assets/edc42d99-fb21-4500-b250-c2b9855e0f6d" />
